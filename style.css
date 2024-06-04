@@ -1,0 +1,62 @@
+body{
+    background-color: #1F2937;
+}
+
+h2{
+    size: 24px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882f6;
+    border: 0px;
+    color: #F9FAF8;
+    width: 75px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.hLinks{
+    display: flex;
+    color: #F9FAF8;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#images{
+    display: flex;
+}
+
+#Title{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#intro{
+    display: flex;
+    color: #F9FAF8;
+}
+
+#information{
+    background-color: #F9FAF8;
+    align-items: center;
+}
+img{
+    min-width: 0px;
+    min-height: 0px;
+    margin: 10px;
+    height: 200px;
+    flex: 1;
+    margin: 25px;
+}
+
+.context{
+    width: 400px;
+    min-width: 0px;
+}
