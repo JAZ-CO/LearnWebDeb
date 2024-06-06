@@ -47,11 +47,39 @@ button{
     background-color: #F9FAF8;
     align-items: center;
 }
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    background-color: #E5E7EB;
+}
+#quoting{
+    color: #1F2937;
+    font-size: 25px;
+}
+
+#signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2456a5;
+    color: #F9FAF8;
+    margin: 100px;
+}
+
+#prefix{
+    display: flex;
+    justify-content: space-between;
+    color: #1F2937;
+    font-weight: bold;
+}
 img{
     min-width: 0px;
     min-height: 0px;
     margin: 10px;
-    height: 200px;
+    max-height: 250px;
+    max-width: 250px;
     flex: 1;
     margin: 25px;
 }
